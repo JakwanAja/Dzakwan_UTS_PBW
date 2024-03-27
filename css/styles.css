@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    background: #E9EAEC;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FC2E20;
+}
+
+.jakwan {
+    width: 100%;
+    height: 60vh;
+    margin-left: 8%;
+    margin-top: 11%;
+}
+
+.jakwan h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #FD7F20;
+}
+
+.jakwan p {
+    color: #555;
+    line-height: 22px;
+}
+
+.jakwan a {
+    background: #212121;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.jakwan a:hover {
+    background-color: #FDB750;
+}
+
+/*Bagian Gambar*/
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .jakwan {
+    left: 55%;
+}
+
+/*Bagian FOOTER */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer__social {
+    margin-bottom: 20px;
+}
+
+.footer__icon {
+    color: #FDB750;
+    font-size: 1.5rem;
+    margin: 0 5px;
+}
+
+.footer__icon:hover {
+    background-color: #FC2E20;
+}
+
+.footer__copy {
+    font-size: 0.8rem;
+}
+
+
+
+/*Penyesuaian tampilan Layar*/
+@media only screen and (max-width: 768px) {
+    nav {
+        width: 100%;
+    }
+    
+    .detel {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .images {
+        bottom: -150px; 
+
+    }
+}

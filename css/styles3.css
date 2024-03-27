@@ -1,0 +1,108 @@
+
+/* START -->STYLE BAGIAN JADWAL PERKULIAHAN */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: #FD7F20; 
+    color: #f9f9f9; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7e7e7;
+}
+
+tbody tr:hover {
+    background-color: #FDB750; 
+}
+
+td {
+    color: #555; 
+}
+/* END -->STYLE BAGIAN JADWAL PERKULIAHAN */
+
+/* START -->STYLE BAGIAN HALAMAN PENDAFTARAN */
+.daftar {
+    padding: 80px 0;
+    background-color: #fff;
+    margin-bottom: 80px; 
+}
+
+.daftar-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.daftar_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daftar_form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.daftar_input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+.daftar_button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FD7F20;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.daftar_button:hover {
+    background-color: #FC2E20;
+}
+/* END -->STYLE BAGIAN HALAMAN PENDAFTARAN */
