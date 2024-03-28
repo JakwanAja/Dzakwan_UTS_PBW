@@ -4,7 +4,7 @@
 
 
 Keterangan :
->> Website dihosting menggunakan layanan hosting gratis --> dash.infinityfree.com
+>> Website dihosting menggunakan layanan hosting gratis --> https://dash.infinityfree.com/
 
 >> File styles.css = Merupakan Script CSS dari halaman Home yang meliputi Header, Navigation menu(Home,Profil,Tentang saya,...), Konten bagian HOME, dan Footer
 
