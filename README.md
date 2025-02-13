@@ -1,11 +1,11 @@
+## About
 Project ini dibuat untuk memenuhi tugas UTS mata kuliah Pemrograman Berbasis Web 1. 
-Project dibuat menggunakan bahasa HTML, CSS, Dan JavaScript dasar. 
+Project dibuat menggunakan bahasa HTML, CSS, Dan JavaScript dasar.
+Website dihosting menggunakan layanan hosting gratis --> https://dash.infinityfree.com/
 >> Dibuat oleh :
->> Muhamad Dzakwan Alfaris
+>> M. Dzakwan Alfaris | 234311019
 
-Keterangan :
->> Website dihosting menggunakan layanan hosting gratis --> https://dash.infinityfree.com/
-
+## Keterangan :
 >> File styles.css = Merupakan Script CSS dari halaman Home yang meliputi Header, Navigation menu(Home,Profil,Tentang saya,...), Konten bagian HOME, dan Footer
 
 >> File styles2.css = Merupakan Script CSS dari halaman Profil,Tentang saya, dan Hobi
