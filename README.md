@@ -1,7 +1,7 @@
-#-->>>>> Muhamad Dzakwan Alfaris
---> 234311019
---> TRPL 2-A
-
+Project ini dibuat untuk memenuhi tugas UTS mata kuliah Pemrograman Berbasis Web 1. 
+Project dibuat menggunakan bahasa HTML, CSS, Dan JavaScript dasar. 
+>> Dibuat oleh :
+>> Muhamad Dzakwan Alfaris
 
 Keterangan :
 >> Website dihosting menggunakan layanan hosting gratis --> https://dash.infinityfree.com/
